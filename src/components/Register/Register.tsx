@@ -125,7 +125,7 @@ const Register: FC = () => {
             draggable: true,
             progress: undefined,
           });
-          setLoading(false);
+       
         } else {
           toast.error("Unexpected error", {
             position: "top-right",
@@ -138,6 +138,7 @@ const Register: FC = () => {
           });
         }
         console.log(error);
+           setLoading(false);
       });
   };
 
