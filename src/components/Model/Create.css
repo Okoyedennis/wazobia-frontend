@@ -1,0 +1,134 @@
+.model {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.model form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  /* max-width: 600px;
+    min-width: 300px; */
+  height: 370px;
+  width: 500px;
+  border-radius: 4px;
+}
+
+.modal-header {
+  margin-top: 16px;
+  padding: 14px 28px;
+}
+
+.modal-header h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.modal-body {
+  padding: 14px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-body .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body .form-group label {
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5f6166;
+}
+
+.modal-body .form-group input,
+.modal-body .form-group textarea {
+  font-family: Avenir;
+
+  height: 40px;
+  left: 0px;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  border: 1px solid #efeff0;
+  padding: 10px 12px 10px 12px;
+  /* font-family: Montserrat; */
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.model-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 28px;
+  gap: 0.5rem;
+}
+
+.model-footer button {
+  height: 40px;
+  border-radius: 4px;
+}
+
+.model-footer .cancel {
+  width: 92px;
+  height: 40px;
+
+  background: #efeff0;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #20262f;
+}
+
+.model-footer .event {
+  width: 119px;
+  background: #999a9b;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+
+.model form hr{
+    border: 1px solid #EFEFF0
+} 
+
+.delete form{
+  height: auto !important;
+}
+
+.delete form button{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.delete form .event{
+  background-color: red;
+}

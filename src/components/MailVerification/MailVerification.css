@@ -1,0 +1,84 @@
+.mailVerification {
+  height: 100vh;
+}
+
+.mailVerification__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+
+  height: 450px;
+  width: 720px;
+  margin-top: 159px;
+  border-radius: 0px;
+  background: linear-gradient(0deg, #f0f0f0, #f0f0f0),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1px solid #f0f0f0;
+}
+
+.mailVerification__wrapper .lead-icon {
+  height: 64px;
+  width: 64px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  color: #07982f;
+}
+
+.mailVerification__wrapper p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+
+.link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+}
+
+.mailVerification__wrapper a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #004cbd;
+  text-decoration: none;
+}
+
+.mailVerification__wrapper .sub-icon {
+  color: #004cbd;
+  height: 25px;
+  width: 25px;
+}
+
+@media (max-width: 567px) {
+  .mailVerification {
+    overflow: hidden;
+  }
+  .mailVerification__wrapper {
+    gap: 40px;
+    padding: 2rem;
+    height: fit-content;
+    width: fit-content;
+    /* margin-top: 159px; */
+  }
+
+  .mailVerification__wrapper p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+    text-align: center;
+  }
+}
