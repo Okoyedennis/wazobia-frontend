@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/users/:id/verify" element={<MailVerificationPage />} />
+          <Route path="/users/:id/verify/:token" element={<MailVerificationPage />} />
         </Routes>
       </Router>
     </div>
